@@ -21,4 +21,8 @@ delete App.css file in src folder. also remove all the code in app.jsx file and 
 
 delete react.svg file inside src/assets
 
-clear the index.css code
+clear the index.css code. 
+after adding some products in assets.js
+
+we will install tailwind using vite.
+`npm install -D tailwindcss postcss autoprefixer`

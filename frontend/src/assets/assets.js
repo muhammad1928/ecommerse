@@ -25,7 +25,7 @@ export const assets = {
 }
 
 
-
+// we exporting it so we can use this products in any components 
 export const produc= [
     {
         _id : "cicek1",
@@ -41,16 +41,65 @@ export const produc= [
 
     },
     {
-        _id : "cicek1",
+        _id : "cicek2",
         name: "kirmizi gul",
         description: "Kirmizi 6 adet gul",
         price: 100,
-        image: [cicek1],
+        image: [cicek2],
         category: "cicek",
         subCategory : "sevgili-Cicek",
         sizes : [5,10, 15, 20],
         date: 123123123,
         bestSeller : true
 
+    },
+    {
+        _id : "cicek3",
+        name: "kirmizi gul",
+        description: "Kirmizi 6 adet gul",
+        price: 100,
+        image: [cicek3],
+        category: "cicek",
+        subCategory : "sevgili-Cicek",
+        sizes : [5,10, 15, 20],
+        date: 123123123,
+        bestSeller : true
+    },
+    {
+        _id : "cicek4",
+        name: "kirmizi gul",
+        description: "Kirmizi 6 adet gul",
+        price: 100,
+        image: [cicek4],
+        category: "cicek",
+        subCategory : "sevgili-Cicek",
+        sizes : [5,10, 15, 20],
+        date: 123123123,
+        bestSeller : true
+    },
+    {
+        _id : "cicek6",
+        name: "kirmizi gul",
+        description: "Kirmizi 6 adet gul",
+        price: 100,
+        image: [cicek6, cicek7],
+        category: "cicek",
+        subCategory : "sevgili-Cicek",
+        sizes : [5,10, 15, 20],
+        date: 123123123,
+        bestSeller : true
+    },
+    {
+        _id : "cicek8",
+        name: "kirmizi gul",
+        description: "Kirmizi 6 adet gul",
+        price: 100,
+        image: [cicek8,cicek9,cicek10],
+        category: "cicek",
+        subCategory : "sevgili-Cicek",
+        sizes : [5,10, 15, 20],
+        date: 123123123,
+        bestSeller : true
     }
+
 ]
